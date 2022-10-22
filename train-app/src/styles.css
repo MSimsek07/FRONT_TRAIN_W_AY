@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+  background-image: url("https://64.media.tumblr.com/0e44ddd910d57984df6c74f1925ea018/094d23d941f625c2-bd/s540x810/a63e9c68ac6ef3186256b24a26de4d1b134edcff.gifv");
+  background-size: cover;
+}
