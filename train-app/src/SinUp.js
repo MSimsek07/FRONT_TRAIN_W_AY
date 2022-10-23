@@ -1,14 +1,6 @@
 import React, { Component } from "react";
 
 export class SinUp extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      first,
-    };
-  }
-
   render() {
     const [signIn, toggle] = React.useState(true);
     return (

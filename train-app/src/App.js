@@ -51,9 +51,13 @@ function App() {
 
           <Components.RightOverlayPanel signinIn={signIn}>
             <Components.Title>Yeniden Hoşgeldiniz</Components.Title>
+
             <Components.Paragraph>
               Kişisel bilgilerinizi girin ve bizimle yolculuğa başlayın
             </Components.Paragraph>
+            <Components.Paragraph className="quote"></Components.Paragraph>
+            <Components.Paragraph className="film"></Components.Paragraph>
+
             <Components.GhostButton onClick={() => toggle(false)}>
               Üye Ol
             </Components.GhostButton>
